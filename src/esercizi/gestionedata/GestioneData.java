@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class GestioneData {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        Data data = new Data();
 
         int anno = 0;
         int mese = 0;
@@ -118,6 +119,8 @@ public class GestioneData {
         // ================= ESITO FINALE =================
         System.out.println("\nData acquisita con successo: " + giorno + "/" + mese + "/" + anno);
 
+        data = new Data(giorno, mese, anno);
+        data.visualizza();
         scanner.close();
     }
 }
