@@ -1,6 +1,6 @@
 package esercizi.gestionestringhe;
 
-public class GestioneMessaggio {
+public class Main_GestioneMessaggio {
     public static void main(String[] args) {
         // Test 1: Contare le vocali
         Messaggio msg1 = new Messaggio("Esercitazione Java");
