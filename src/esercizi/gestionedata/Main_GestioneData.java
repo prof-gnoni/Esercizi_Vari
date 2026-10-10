@@ -2,14 +2,39 @@ package esercizi.gestionedata;
 
 import java.util.Scanner;
 
-public class GestioneData {
+public class Main_GestioneData {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Data data = new Data();
+        Data miaData1 = new Data();
+        Data miaData2 = new Data(19,2,1992);
+        Data miaData3;
 
-        int anno = 0;
-        int mese = 0;
-        int giorno = 0;
+        int giorno, mese, anno;
+
+        System.out.println("miaData1: ");
+        miaData1.visualizza();
+        System.out.println("miaData2: ");
+        miaData2.visualizza();
+
+        /*giorno = miaData1.getGiorno();
+        mese = miaData1.getMese();
+        anno = miaData1.getAnno();
+        System.out.println("Giorno dell'oggetto \"miaData1\": " + giorno);
+        System.out.println("Mese dell'oggetto \"miaData1\": " + mese);
+        System.out.println("Anno dell'oggetto \"miaData1\": " + anno);
+        miaData1.setGiorno(10);
+        miaData1.setMese(10);
+        miaData1.setAnno(2026);
+        giorno = miaData1.getGiorno();
+        mese = miaData1.getMese();
+        anno = miaData1.getAnno();
+        System.out.println("Giorno dell'oggetto \"miaData1\": " + giorno);
+        System.out.println("Mese dell'oggetto \"miaData1\": " + mese);
+        System.out.println("Anno dell'oggetto \"miaData1\": " + anno);
+        System.out.println("La data miaData1 e': ");*/
+    }
+}
+    /*
         int tentativi; // Variabile che useremo per contare i tentativi
 
         // Array con i giorni per ciascun mese
@@ -123,4 +148,5 @@ public class GestioneData {
         data.visualizza();
         scanner.close();
     }
-}
+
+     */

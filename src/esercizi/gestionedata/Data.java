@@ -47,6 +47,12 @@ public class Data {
         this.anno = anno;
     }
 
+    // Metodi di Utilità
+    public void visualizza() {
+        System.out.println(giorno+"/"+mese+"/"+anno);
+    }
+}
+ /*
     // --- METODI DI VISUALIZZAZIONE ---
     public void visualizza() {
         System.out.printf("%02d/%02d/%04d%n", giorno, mese, anno);
@@ -122,3 +128,4 @@ public class Data {
         return false;
     }
 }
+*/
